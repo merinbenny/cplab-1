@@ -6,14 +6,14 @@ Date:13/02/2019
 #include<stdio.h>
 void main()
 {
-	int age1,age2,age3;
+	int age1,shyamage,age3;
 	printf("Enter Ram's age, Shyam's age, Ajay's age:");
-	scanf("%d%d%d",&age1,&age2,&age3);
+	scanf("%d%d%d",&age1,&shyamage,&age3);
 	if(age1<age2 && age1<age3)
 		printf("the youngest one is Ram");
-	if(age2<age1 && age2<age3)
+	if(age2<age1 && shyamage<age3)
 		printf("the youngest one is Shyam");
-	if(age3<age1 && age3<age2)
+	if(age3<age1 && age3<shyamage)
 		printf("the youngest one is Ajay");
 }
 

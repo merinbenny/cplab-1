@@ -12,9 +12,9 @@ Date:27/02/2019
 void main()
 {
 	int i,j;
-	for(i=1;i<=5;i++)
+	for(i=1;i<=6;i++)
 	{
-		for(j=5;j>=i;j--)
+		for(j=6;j>=i;j--)
 		{
 			printf("*\t");
 		}

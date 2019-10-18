@@ -6,11 +6,11 @@ Date:06/03/2019
 #include<stdio.h>
 void main()
 {
-	int digit,number,product;
+	int digit,number,p;
 	printf("Enter the digit:");
 	scanf("%d",&digit);
 	for(number=1;number<digit;number++)
 		{
-		product=digit*number;
+		p=digit*number;
 		}
 	printf("%d*%d=%d",

@@ -7,7 +7,7 @@ Date:06/03/2019
 void main()
 {
 	int num,i=1,prod;
-	printf("enter the number:");
+	printf("enter number:");
 	scanf("%d",&num);
 	for(i=1;i<=10;i++)
 		{

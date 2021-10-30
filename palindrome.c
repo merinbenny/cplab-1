@@ -9,7 +9,7 @@ void main()
 	int number,reverse=0,remainder,a;
 	printf("enter the number:");
 	scanf("%d",&number);
-	a= number;
+	a=number;
 	while(number>0)
 		{
 		remainder=number%10;

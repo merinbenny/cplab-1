@@ -6,7 +6,7 @@ Date: 06/02/2019
 #include<stdio.h>
 void main(){
 	int number,number2,number3;
-	printf("enter three integer numbers:");
+	printf("enter three numbers:");
 	scanf("%d%d%d",&number,&number2,&number3);
 	/*to find which number is greatest*/
 	if(number>number2 && number>number3)

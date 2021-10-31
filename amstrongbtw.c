@@ -6,10 +6,10 @@ Date:06/03/2019
 #include<stdio.h>
 void main()
 {
-	int number,remainder,sum,temp;
-	for(number=100;number<=500;number++)
+	int num,remainder,sum,temp;
+	for(num=100;num<=500;num++)
 	{
-		temp=number;
+		temp=num;
 		sum = 0;
 		while(temp!=0)
 		{
@@ -17,7 +17,7 @@ void main()
 			temp=temp/10;
 			sum=sum+(remainder*remainder*remainder);
 		}
-	if(sum==number)
-	printf("%d ",number);
+	if(sum==num)
+	printf("%d ",num);
 	}
 }

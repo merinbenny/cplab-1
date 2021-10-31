@@ -7,7 +7,7 @@ Date:06/03/2019
 void main()
 {
 	int rem,oct=0,num,i=1;
-	printf("enter the number:");
+	printf("enter a number:");
 	scanf("%d",&num);
 	while(num>0)
 		{

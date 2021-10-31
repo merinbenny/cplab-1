@@ -7,7 +7,7 @@ Date:13/02/2019
 void main()
 {
 	int number1,number2;
-	printf("enter two integer numbers:");
+	printf("enter two numbers:");
 	scanf("%d%d",&number1,&number2);
 	/*to find which number is greatest*/
 	if(number1>number2)
